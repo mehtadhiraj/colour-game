@@ -1,0 +1,40 @@
+body {
+	padding-top: 30px;
+	background-image: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec13e2bc38df66aaaf8d88ff4607dfe1&auto=format&fit=crop&w=668&q=80);
+	background-position: center;
+	background-size: cover;
+	font-family:Roboto;
+	color: white;
+}
+
+html {
+	height: 100%;
+}
+
+#content {
+	text-align: center;
+	padding-top: 20%;
+	text-shadow: 0px 4px 3px rgb(0,0,0,0.4),
+				 0px 8px 13px rgb(0,0,0,0.1),
+				 0px 18px 23px rgb(0,0,0,0.1);
+
+}
+
+h1 {
+	font-weight: 70;
+	font-size: 5em;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgb(0,0,0,0.2); 
+}
+
+.navbar-inverse {
+	background-color: #E0E0E0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #424242;
+}
